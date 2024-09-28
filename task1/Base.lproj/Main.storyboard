@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Altynbekov Nurgali" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZzP-pL-avN">
-                                <rect key="frame" x="75" y="408" width="243" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Altynbekov Nurgali Zhanatovich" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZzP-pL-avN">
+                                <rect key="frame" x="16" y="390.33333333333331" width="361" height="71.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,8 +26,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ZzP-pL-avN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="PDT-wM-JGM"/>
                             <constraint firstItem="ZzP-pL-avN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UUj-ih-FUp"/>
                             <constraint firstItem="ZzP-pL-avN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bJg-02-HoL"/>
+                            <constraint firstAttribute="trailing" secondItem="ZzP-pL-avN" secondAttribute="trailing" constant="16" id="mJy-FH-UEl"/>
                         </constraints>
                     </view>
                 </viewController>
